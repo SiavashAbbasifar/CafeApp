@@ -1,0 +1,34 @@
+import 'package:flutter/material.dart';
+
+import '../models/coffee.dart';
+
+class CoffeeTile extends StatelessWidget {
+  final Coffee coffee;
+  void Function()? onPressed;
+  final Widget icon;
+
+  CoffeeTile({super.key,required this.coffee,required this.onPressed,required this.icon});
+
+
+
+  @override
+  Widget build(BuildContext context) {
+    return
+      Container(
+          decoration: BoxDecoration(
+          color: Color(0xFFede0d4),
+            borderRadius: BorderRadius.circular(15)
+        ),
+        margin: EdgeInsets.only(bottom: 10),
+        padding: EdgeInsets.symmetric(vertical: 25,horizontal: 10),
+        
+        child: ListTile(
+        title: Text(coffee.name),
+        subtitle: Text("${coffee.price.toString()} Thousand T"),
+        leading:Image.asset(coffee.imagepath),
+          trailing:IconButton(icon:icon, onPressed: onPressed),
+            ) ,
+    );
+
+  }
+}
