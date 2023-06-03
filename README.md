@@ -28,3 +28,9 @@ Payment methods:
 Menu:
 "Again in depends on the Cafe and how they like the Menu Screen's UI but we can change it as they like or just add items from their menu
 to the current menu"
+
+
+![Screenshot (282)](https://github.com/SiavashAbbasifar/CafeApp/assets/76787697/aeaa9e92-0a74-474a-af39-292fdf890c3d)
+![Screenshot (283)](https://github.com/SiavashAbbasifar/CafeApp/assets/76787697/86cf6e8f-1e32-4759-a04c-3901ba1b2e6b)
+![Screenshot (284)](https://github.com/SiavashAbbasifar/CafeApp/assets/76787697/d343b426-d044-47d9-9f1e-6b9cc5e28f6f)
+![Screenshot (285)](https://github.com/SiavashAbbasifar/CafeApp/assets/76787697/0bb1f7a0-997f-4aa8-9a84-f8b11f2425f2)
